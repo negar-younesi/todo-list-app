@@ -1,104 +1,99 @@
-# 📝 Todo List App
+📝 Todo List App
 
-A modern, responsive todo list application built with vanilla JavaScript, HTML, and CSS.
+<p align="center">
+<a href="https://negar-younesi.github.io/todo-list-app/">
+<img src="https://img.shields.io/badge/🚀_Live_Demo-Click_Here-8b5cf6?style=for-the-badge" alt="Live Demo">
+</a>
+</p>
 
-## ✨ Features
+<p align="center">
+A modern, responsive Todo List application built with Vanilla JavaScript, HTML5, and CSS3.
+</p>
 
-- ✅ Add, edit, and delete todos
-- ✅ Mark todos as complete/incomplete
-- ✅ Filter todos by status (All/Completed/Uncompleted)
-- ✅ Local storage persistence
-- ✅ Responsive design for mobile and desktop
-- ✅ Double-click to edit todos
-- ✅ Modern UI with smooth animations
+✨ Features
+✅ Add, edit, and delete todos
+✅ Mark todos as complete or incomplete
+✅ Filter todos by status (All / Completed / Uncompleted)
+✅ Save todos using Local Storage
+✅ Responsive design for mobile and desktop
+✅ Double-click to edit todos
+✅ Modern UI with smooth animations
+🚀 Live Demo
 
-## 🚀 Getting Started
+Try the application here:
 
-### Prerequisites
-- A modern web browser
-- No additional dependencies required
+🔗 https://negar-younesi.github.io/todo-list-app/
 
-### Installation
-1. Clone this repository:
-```bash
-git clone https://github.com/yourusername/todo-list-app.git
-```
+🛠️ Technologies Used
+HTML5 – Semantic markup
+CSS3 – Modern styling, animations, and responsive design
+Vanilla JavaScript – Application functionality
+Font Awesome – Icons
+Google Fonts – Poppins font family
+🚀 Getting Started
+Prerequisites
+A modern web browser
+No additional dependencies required
+Installation
+Clone the repository:
+bash
+git clone https://github.com/negar-younesi/todo-list-app.git
 
-2. Navigate to the project directory:
-```bash
+Navigate to the project directory:
+bash
 cd todo-list-app
-```
 
-3. Open `index.html` in your web browser:
-```bash
-# Simply double-click index.html or use a local server
+Open index.html in your browser, or start a local server:
+bash
 python -m http.server 8000
-# Then visit http://localhost:8000
-```
 
-## 📱 Usage
+Then visit http://localhost:8000.
 
-### Adding Todos
-1. Type your todo in the input field
-2. Click the `+` button or press Enter
+📱 Usage
+Adding Todos
+Type your task in the input field.
+Click the + button or press Enter.
+Editing Todos
+Double-click on any todo item to edit it.
+Press Enter or click outside the input to save changes.
+Managing Todos
+Click the checkmark to mark a task as completed.
+Click the trash icon to delete a task.
+Use the dropdown menu to filter tasks.
+💾 Local Storage
 
-### Editing Todos
-- Double-click on any todo text to edit it inline
-- Press Enter to save or click outside to cancel
+All todos are automatically saved in the browser's Local Storage.
 
-### Managing Todos
-- Click the checkmark to mark as complete/incomplete
-- Click the trash icon to delete a todo
-- Use the dropdown to filter todos by status
+Your tasks remain available after refreshing or reopening the browser on the same device and browser.
 
-## 🎨 Features Explained
+📱 Responsive Design
 
-### Local Storage
-All todos are automatically saved to browser's local storage, so your data persists even after closing the browser.
+The application adapts to different screen sizes:
 
-### Responsive Design
-The application adapts seamlessly to different screen sizes:
-- 📱 Mobile phones (< 480px)
-- 📱 Tablets (< 768px)
-- 💻 Desktop (> 768px)
-
-### Data Structure
-Todos are stored as objects with the following structure:
-```javascript
-{
-  text: "Your todo item",
-  completed: false
-}
-```
-
-## 🛠️ Technologies Used
-
-- **HTML5** - Semantic markup
-- **CSS3** - Modern styling with animations
-- **Vanilla JavaScript** - No frameworks required
-- **Font Awesome** - Icon library
-- **Google Fonts** - Poppins font family
-
-## 📂 Project Structure
-
-```
+📱 Mobile phones
+📱 Tablets
+💻 Desktop screens
+📂 Project Structure
+text
 todo-list-app/
-├── index.html          # Main HTML file
-├── main.js            # JavaScript functionality
-├── style.css          # Styling and responsive design
-├── fontawesome/       # Font Awesome icons
-├── README.md          # This file
-├── LICENSE            # MIT License
-└── .gitignore         # Git ignore file
-```
+├── index.html
+├── main.js
+├── style.css
+├── fontawesome/
+├── README.md
+├── LICENSE
+└── .gitignore
 
-## 🎯 Browser Support
+🌐 Browser Support
+Chrome
+Firefox
+Safari
+Microsoft Edge
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+<p align="center">
+Made with ❤️ by <strong>Negar Younesi</strong>
+</p>
 
----
-
-Made with ❤️ using vanilla JavaScript
+<p align="center">
+⭐ If you like this project, consider giving it a star!
+</p>
