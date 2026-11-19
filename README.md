@@ -1,116 +1,125 @@
-📝 Todo List App
+
+# 📝 Todo List App
 
 A modern, responsive Todo List application built with HTML, CSS, and Vanilla JavaScript.
 
-🚀 Live Demo – Try the App
+[🚀 Live Demo](https://negar-younesi.github.io/todo-list-app/)
 
-✨ Features
-✅ Add new tasks.
-✏️ Edit tasks by double-clicking on them.
-🗑️ Delete tasks.
-✔️ Mark tasks as completed or uncompleted.
-🔍 Filter tasks by status:
-All
-Completed
-Uncompleted
-💾 Save tasks automatically using Local Storage.
-📱 Responsive design for mobile, tablet, and desktop.
-🎨 Modern user interface with smooth animations.
-🚀 Live Demo
+## ✨ Features
 
-Try the application online:
+- Add new tasks.
+- Edit tasks by double-clicking.
+- Delete tasks.
+- Mark tasks as completed or uncompleted.
+- Filter tasks by status (All, Completed, Uncompleted).
+- Save tasks using Local Storage.
+- Responsive design for mobile and desktop.
+- Modern UI with smooth animations.
 
-👉 Open Todo List App
+## 🛠️ Technologies Used
 
-🛠️ Technologies Used
-HTML5 – Semantic structure and page layout.
-CSS3 – Modern styling, responsive design, and animations.
-Vanilla JavaScript – Application logic and interactive features.
-Font Awesome – Icons.
-Google Fonts – Poppins typography.
-📥 Getting Started
-Prerequisites
-A modern web browser.
-Git installed on your computer (for cloning the repository).
-Installation
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Font Awesome
+- Google Fonts (Poppins)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- A modern web browser.
+- Git (optional).
+
+### Installation
 
 1. Clone the repository:
 
-bash
-git clone https://github.com/negar-younesi/todo-list-app.git
+   ```bash
+   git clone https://github.com/negar-younesi/todo-list-app.git
+   ```
 
+2. Open the project folder:
 
-2. Navigate to the project directory:
+   ```bash
+   cd todo-list-app
+   ```
 
-bash
-cd todo-list-app
+3. Open `index.html` in your browser.
 
+You can also run a local server:
 
-3. Run the application:
+   ```bash
+   python -m http.server 8000
+   ```
 
-Open index.html directly in your browser.
+Then visit `http://localhost:8000`.
 
-Alternatively, start a local development server:
+## 📖 Usage
 
-bash
-python -m http.server 8000
+### Adding Tasks
 
+1. Enter your task in the input field.
+2. Click the plus button or press Enter.
 
-Then open the following address in your browser:
+### Editing Tasks
 
-http://localhost:8000
+- Double-click a task to edit it.
+- Press Enter or click outside to save.
 
-📖 Usage
-➕ Adding Todos
-Enter your task in the input field.
-Click the plus (+) button or press Enter.
-Your task will appear in the todo list.
-✏️ Editing Todos
-Double-click on any todo item.
-Edit the task text.
-Press Enter or click outside the input to save your changes.
-✅ Completing Todos
+### Managing Tasks
 
-Click the checkmark button to mark a task as completed or uncompleted.
+- Click the checkmark to complete a task.
+- Click the trash icon to delete a task.
+- Use the dropdown menu to filter tasks.
 
-🗑️ Deleting Todos
+## 💾 Local Storage
 
-Click the trash button to remove a task from the list.
+All tasks are automatically saved in the browser's Local Storage.
 
-🔍 Filtering Todos
+Your tasks remain available after refreshing the page or reopening the browser.
 
-Use the dropdown menu to display:
+Each task is stored as an object:
 
-All tasks.
-Completed tasks.
-Uncompleted tasks.
-💾 Local Storage
+   ```javascript
+   {
+     text: "Learn JavaScript",
+     completed: false
+   }
+   ```
 
-The application uses the browser's Local Storage to save todo items automatically.
+## 📱 Responsive Design
 
-Each task is stored as an object containing its text and completion status.
+The application supports:
 
-Example data structure:
+- Mobile phones.
+- Tablets.
+- Desktop computers.
 
-javascript
-{
-  text: "Learn JavaScript",
-  completed: false
-}
+## 📂 Project Structure
 
+   ```text
+   todo-list-app/
+   ├── index.html
+   ├── main.js
+   ├── style.css
+   ├── fontawesome/
+   ├── README.md
+   ├── LICENSE
+   └── .gitignore
+   ```
 
-Your tasks remain saved after refreshing the page or reopening the browser on the same device and browser.
+## 🌐 Browser Support
 
-📱 Responsive Design
+- Google Chrome
+- Mozilla Firefox
+- Safari
+- Microsoft Edge
 
-The application is designed to work on different screen sizes:
+## 👩‍💻 Author
 
-📱 Mobile phones.
-📱 Tablets.
-💻 Desktop computers.
-📂 Project Structure
-text
-todo-list-app/
-│
-├── index.html
-├── main
+Negar Younesi
+
+---
+
+Made with ❤️ using Vanilla JavaScript.
